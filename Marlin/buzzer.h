@@ -30,6 +30,10 @@
 
 #include "MarlinConfig.h"
 
+//override beeper pin:
+#undef BEEPER_PIN
+#define BEEPER_PIN         29
+
 #define TONE_QUEUE_LENGTH 4
 
 /**
